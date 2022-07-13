@@ -5,7 +5,7 @@ Feature: RetailPage
     Given user is on the home page
     When user click on MyAccount
     And user click on login option
-    And user enter user name "shams7@gmail.com" and password "cali123"
+    And user enter user name "shams6@gmail.com" and password "cali123"
     And user click on the login button
     Then user should be able to logged into account
 
@@ -34,6 +34,6 @@ Feature: RetailPage
     When User click on Edit your account information link
     And User modify below information
       | firstName | lastName | email                 | telephone  |
-      | Shams     | shams    | shams7@gmail.com | 9163181921 |
+      | Shams     | shams    | shams6@gmail.com | 9163181921 |
     And User click on edit continue button
     Then User should see a message ‘Success: Your account has been successfully updated.
